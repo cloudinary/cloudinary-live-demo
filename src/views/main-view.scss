@@ -1,0 +1,59 @@
+@import "../scss/_variables";
+
+.main-view {
+    &.is-modal {
+        form {
+            filter: blur(6px);
+        }
+    }
+
+    .invite-modal {
+        top: 0;
+        left: 0;
+        z-index: 2;
+
+        .invite-modal-content {
+            border-radius: 7px;
+            background-color: rgba(112,114,158,0.3);
+        }
+        
+    }
+}
+
+div.main-view {
+    padding-bottom: 50px;
+}
+
+.effects-wrap,
+.social-wrap {
+    > div {
+        min-height: 2.8rem;
+    }
+}
+
+#upload_widget_thumb-placeholder {
+    
+    .img-placeholder {
+        background-color: rgba(112,114,158,0.3);
+        border-radius: 7px;
+    }
+
+    .btn-remove-logo {
+        right: -5px;
+        top: -5px;
+        margin: 0;
+
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: transparent;
+        }
+
+    }
+
+    img {
+        height: 3.5rem;
+        max-width: 300px;
+    }
+}
+

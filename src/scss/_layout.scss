@@ -1,0 +1,87 @@
+
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+ 
+body {
+    background: url('https://res.cloudinary.com/demo-live/image/upload/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #000;
+}
+
+.bg-blur {
+    background:  url('https://res.cloudinary.com/demo-live/image/upload/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    filter: blur(6px);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+  
+.bg-opacity {
+    background-color: rgba(14,47,90,0.48);
+}
+
+
+
+.content-container {
+    position: relative;
+    max-width: 700px;
+    // height: 1px;
+    height: 100%;
+}
+
+.content-container.is-modal {
+    height: auto;
+    min-height: 100%;
+}
+
+@media only screen and (orientation: portrait) {
+
+    .content-container {
+        height: 100%;
+    }
+
+    body.main-view .content-container {
+        
+        min-height: 100%;
+        height: auto !important;
+        
+        .main-view {
+            min-height: 100%;
+            height: auto !important;
+        }
+    }
+
+}
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (orientation: landscape) {
+    .content-container {
+        min-height: 100%;
+        height: auto;
+    }
+
+    body.progress-view .content-container,
+    body.error-view .content-container {
+        height: 100%;
+    }
+
+    body.main-view .invite-modal {
+        height: auto !important;
+    }
+}
+
+.view.view-calc {
+    overflow: hidden;
+}
+

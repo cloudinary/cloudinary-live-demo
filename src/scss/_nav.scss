@@ -1,0 +1,21 @@
+
+
+.navbar {
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: $nav-bar-height;
+    max-height: $nav-bar-height;
+
+    .btn-light {
+        background-color: transparent;
+        border: none;
+        color: inherit;
+    }
+
+    .btn-light:hover {
+        background-color: rgba(112,114,158,0.3);
+        color: $primary-color;
+    }
+}
+

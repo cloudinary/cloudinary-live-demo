@@ -1,0 +1,95 @@
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+color: #847d79;
+}
+::-moz-placeholder { /* Firefox 19+ */
+color: #847d79;
+}
+:-ms-input-placeholder { /* IE 10+ */
+color: #847d79;
+}
+:-moz-placeholder { /* Firefox 18- */
+color: #847d79;
+}
+
+.input-field {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid transparent;
+    border-radius: 0;
+    outline: none;
+    height: 2.2rem;
+    width: 100%;
+    font-size: 1.2rem;
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+
+    &.input-field-inline {
+        font-size: inherit;
+        height: 1.4rem;
+        margin: 0;
+    }
+}
+
+label {
+    margin-bottom: 0;
+    font-size: 0.85rem;
+}
+
+.form-check,
+.form-radio {
+    margin-bottom: 0;
+}
+
+.form-check-input {
+    + span {
+        .checked {
+            &:before {
+                background-color: #FFF;
+                position: absolute;
+                width: 60%;
+                height: 62%;
+                display: inline-block;
+                content: ' ';
+                z-index: -1;
+                top: 20%;
+                left: 20%;
+            }
+        }
+    }
+}
+
+.form-check-input,
+.form-radio-input {
+    display: none;
+
+    + span {
+        .checked {
+            display: none;
+            position: relative;
+            z-index: 1;
+        }
+
+        .not-checked {
+            display: inline;
+        }
+    }
+
+    &:checked {
+        + span {
+            .checked {
+                display: inline;
+            }
+    
+            .not-checked {
+                display: none;
+            }
+        }
+    }
+}

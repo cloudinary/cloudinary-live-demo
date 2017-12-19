@@ -1,0 +1,53 @@
+
+
+.material-icons {
+    vertical-align: middle;
+}
+
+.md-12 { 
+    font-size: 1.1rem; 
+    width: 1.1rem;
+    height: 1.1rem;
+    line-height: 1.1rem;
+}
+
+.md-18 { 
+    font-size: 1.3rem; 
+    width: 1.3rem;
+    height: 1.3rem;
+    line-height: 1.3rem;
+}
+
+.md-36 {
+    font-size: 2rem; 
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+}
+
+
+
+.material-icons.md-24 { 
+    font-size: 24px; 
+}
+.material-icons.md-36 { 
+}
+.material-icons.md-48 { 
+    font-size: 48px; 
+}
+
+.md-icon-bg {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    &.md-facebook {
+        background-image: url('../assets/facebook.svg');
+        background-position: center -3px;
+    }
+    
+    &.md-youtube {
+        background-image: url('../assets/youtube.svg');
+    }
+}
+ 

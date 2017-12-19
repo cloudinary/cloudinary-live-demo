@@ -1,0 +1,47 @@
+@import "_variables";
+
+$round-button-height: 55px;
+
+
+.control-bar {
+    z-index: 2;
+    width: 100%;
+    height: $round-button-height + 24px;
+    
+    .action-bar {
+        height: 48px;
+        background-color: rgba(14, 47, 90, 1);
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    }
+
+    
+    &.delay {
+        animation-delay: $control-bar-delay;
+        -moz-animation-delay: $control-bar-delay;
+        -o-animation-delay: $control-bar-delay;
+    } 
+
+    .start-button,
+    .stop-button {    
+        height: $round-button-height;
+        width : $round-button-height;
+        border-width: 5px; 
+    }
+}
+
+.invite-modal .start-button {
+    height: $round-button-height;
+    width : $round-button-height;
+    border-width: 5px; 
+}
+
+
+
+
+.start-button {
+    border-width: 5px;
+    border-radius: 35px;
+    
+}

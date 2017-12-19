@@ -1,0 +1,105 @@
+@import "_variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~jssocials/styles/jssocials";
+@import "~jssocials/styles/jssocials-theme-flat";
+@import "_layout";
+@import "_icons";
+@import "_form";
+@import "_nav";
+@import "_button";
+@import "_social";
+@import "url.panel";
+
+html, body {
+    font-family: 'Roboto', sans-serif;    
+    font-size: 14px;
+    font-weight: 300;
+}
+
+input, small, h1, h2, h3, h4 {
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+hr {
+    margin: 10px 0;
+    border-top-color: #979797;
+
+}
+ 
+.modal-content {
+    background-color: #000;
+
+    .close {
+        color: $primary-color;
+        opacity: 1;
+    }
+}
+
+.header-logo { 
+    width:40px;
+    height: 40px;
+
+    .header-logo-beta {
+        right: -13px; 
+        top: 11px;
+        font-size: 0.7rem;
+    }
+    
+}
+
+.cld-logo-white {
+    background: url('../assets/logo-white.svg') no-repeat center center;
+    background-size: 100%;
+    color: #FFF;
+}
+
+.cld-logo-with-text {
+    background: url('../assets/logo-with-text.svg') no-repeat center center;
+    background-size: 100%;
+    color: #FFF;
+}
+
+.popover-share-placeholder {
+    min-width: 220px;
+    min-height: 45px;
+    text-align: center;
+}
+
+.spinner {
+    background: url('../assets/spinner.svg') no-repeat center center;
+    width: 50px;
+    height: 50px;
+}
+
+// @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+//     html {
+//       transform: rotate(-90deg);
+//       transform-origin: left top;
+//       width: 100vh;
+//       overflow-x: hidden;
+//       position: absolute;
+//       top: 100%;
+//       left: 0;
+//     }
+//   }
+
+
+
+// @media (orientation: portrait) {
+//     body {
+//       -webkit-transform: rotate(-90deg);
+//       -moz-transform: rotate(-90deg);
+//       -o-transform: rotate(-90deg);
+//       -ms-transform: rotate(-90deg);
+//       transform: rotate(-90deg);
+//     }
+//   }
+
+
+
+
+

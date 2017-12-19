@@ -1,0 +1,33 @@
+
+$primary-color: #FA8A22; 
+$secondary-color: #0078FF;
+$dark-color: #000;
+$light-color: #DEE6ED; 
+$body-text: #DEE6ED;
+
+$control-bar-delay: 5s;
+$nav-bar-height: 50px;
+
+$theme-colors: (
+    "dark": $dark-color,
+    "light": $light-color,
+    "white": #FFF,
+    "primary": $primary-color,
+    "secondary": $secondary-color 
+);
+
+$popover-bg:                        rgba(112,114,158,0.9) !default;
+$popover-max-width:                 276px !default;
+$popover-border-color:              rgba(225,222,219,0.9) !default;
+$popover-box-shadow:                0 2px 4px 0 rgba(0,0,0,0.5) !default;
+
+$popover-body-color:                $popover-bg !default;
+$popover-body-padding-y:            8px !default;
+$popover-body-padding-x:            16px !default;
+ 
+$popover-arrow-width:               .8rem !default;
+$popover-arrow-height:              .4rem !default; 
+$popover-arrow-color:               $popover-bg !default;
+
+$popover-arrow-outer-color:         fade-in($popover-border-color, .05) !default;
+

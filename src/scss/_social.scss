@@ -1,0 +1,59 @@
+.jssocials-share-link { 
+    width: 32px;
+    height: 32px;
+}
+
+
+.jssocials-share-twitter {
+    .jssocials-share-link{ 
+        background: url('../assets/social/twitter.svg') no-repeat center center;
+        
+        &:hover { 
+            background: url('../assets/social/twitter.svg') no-repeat center center;
+        }
+    }
+}
+
+.jssocials-share-facebook {
+    .jssocials-share-link { 
+        background: url('../assets/social/facebook.svg') no-repeat center center;
+
+        &:hover { 
+            background: url('../assets/social/facebook.svg') no-repeat center center;
+        }
+
+    }
+}
+
+.jssocials-share-linkedin {
+    .jssocials-share-link { 
+        background: url('../assets/social/linkedin.svg') no-repeat center center;
+
+        &:hover { 
+            background: url('../assets/social/linkedin.svg') no-repeat center center;
+        }
+    }
+}
+
+.jssocials-share-whatsapp {
+    .jssocials-share-link { 
+        background: url('../assets/social/whatsapp.svg') no-repeat center center;
+
+        &:hover { 
+            background: url('../assets/social/whatsapp.svg') no-repeat center center;
+        }
+
+    }
+} 
+
+.jssocials-share-email {
+    .jssocials-share-link { 
+        background: url('../assets/social/email.svg') no-repeat center center;
+
+        &:hover { 
+            background: url('../assets/social/email.svg') no-repeat center center;
+        }
+
+    }
+}
+
